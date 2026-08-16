@@ -1,4 +1,4 @@
-# <img src="assets/pixelforge-logo.png" alt="PixelForge Studio" width="500">
+# <img src="assets/pixelforge.png" alt="PixelForge Studio" width="500">
 
 # PixelForge Studio
 
