@@ -1,74 +1,84 @@
-# <img src="assets/pixelforge.png" alt="PixelForge Studio" width="500">
+# <img src="assets/pixelforge.png" alt="PixelForge Studios" width="500">
 
-# PixelForge Studio
+# PixelForge Studios
 
 > **Forging games from scratch.**
 
-PixelForge Studio is an independent game development studio focused on creating fun, creative and polished games.
+PixelForge Studios is an independent game development studio focused on creating fun, creative and polished games.
 
 We're building our projects from the ground up, experimenting with new ideas and learning with every project.
 
 ---
 
-##  Our Games
+## Our Current Game
 
-### Freebuild.lol
+### Penguin Plunge
 
-**Freebuild.lol** is PixelForge Studio's current flagship project.
+**Penguin Plunge** is PixelForge Studios' main focus.
 
-A fast-paced freebuilding game focused on movement, building, editing and combat.
+A fun browser game inspired by the chaotic, colourful and competitive style of games like **Fall Guys**. Take control of a penguin, jump into different challenges and compete to make it to the end.
 
-**Status:**  In Development
+The **Penguin Plunge beta is coming soon**.
 
-### Current Development
+**Status:** 🟡 Beta Coming Soon
 
-* [x] Player movement
-* [x] Sprinting
-* [x] Jumping
-* [x] Mouse movement
-* [x] Character animations
-* [x] Main menu
-* [x] Loading system
-* [x] Lobby
-* [x] Settings
-* [ ] Building system
-* [ ] Building editing
-* [ ] Weapons
-* [ ] Combat
-* [ ] Multiplayer
-* [ ] Matchmaking
-* [ ] Final UI
-* [ ] Public release
+### What to Expect
+
+* Fun browser-based gameplay
+* Penguin characters
+* Chaotic obstacle courses
+* Fall Guys-inspired party game style
+* Competitive challenges
+* More content planned for future updates
 
 ---
 
-##  Technology
+## Former Project
 
-PixelForge currently uses:
+### Freebuild.lol
 
-* **Unity** — Game Engine
+**Freebuild.lol** was previously PixelForge Studios' main development project.
+
+Development focus has now shifted away from Freebuild.lol so that the team can concentrate on **Penguin Plunge**.
+
+Freebuild.lol may remain as a past project, but it is no longer the studio's primary focus.
+
+---
+
+## Technology
+
+PixelForge Studios works with a range of tools and technologies, including:
+
+* **Unity** — Game development
 * **C#** — Gameplay & systems
 * **Blender** — 3D modelling
 * **GitHub** — Version control & collaboration
 * **HTML / CSS / JavaScript** — Web development
+* **Web technologies** — Browser game development
 
 ---
 
-##  Repository
+## Team
 
-This repository contains PixelForge Studio development resources, documentation and project files.
+### Ron
 
+**Founder & Co-Owner**
 
+Ron is the founder of PixelForge Studios and co-owner of Penguin Plunge.
 
-> Repository structure may change as PixelForge projects grow.
+### TTVRampage1
+
+**Co-Owner & Developer**
+
+**TTVRampage1** is a developer and co-owner of Penguin Plunge, working alongside Ron to develop and grow the game.
+
+GitHub: [TTVRampage1-tech](https://github.com/TTVRampage1-tech)
 
 ---
 
-##  Development
+## Development
 
-PixelForge Studio is currently in its early stages.
-
-We're focusing on building a strong foundation before expanding into larger projects.
+PixelForge Studios is currently focused on getting **Penguin Plunge** ready for its upcoming beta.
 
 Our development philosophy is simple:
 
@@ -76,74 +86,60 @@ Our development philosophy is simple:
 
 ---
 
-## 🎯 Studio Goals
+## Studio Goals
 
 * Create games that are genuinely fun to play
 * Build polished experiences from scratch
 * Experiment with new gameplay ideas
 * Improve our development skills with every project
-* Build a community around PixelForge
-* Release multiple games over time
+* Build a community around PixelForge Studios
+* Release and support Penguin Plunge
+* Continue creating new games in the future
 
 ---
 
-##  Roadmap
+## Roadmap
 
-### PixelForge Studio
+### Penguin Plunge
 
-* [ ] Establish studio branding
-* [ ] Launch studio website
-* [ ] Set up development infrastructure
-* [ ] Build PixelForge community
-* [ ] Release first game
-* [ ] Begin additional projects
+* [x] Begin development
+* [x] Establish the core game concept
+* [ ] Finish beta development
+* [ ] Internal testing
+* [ ] Public beta
+* [ ] Community feedback
+* [ ] More maps and challenges
+* [ ] Future updates
 
-### Freebuild.lol
+### PixelForge Studios
 
-* [x] Core player controller
-* [x] Camera system
-* [x] Character animations
-* [x] Main menu
-* [x] Lobby
-* [x] Settings
-* [ ] Building
-* [ ] Editing
-* [ ] Weapons
-* [ ] Combat
-* [ ] Multiplayer
-* [ ] Testing
-* [ ] Beta
-* [ ] Release
+* [x] Establish the studio
+* [x] Begin development on Penguin Plunge
+* [x] Build the Penguin Plunge team
+* [ ] Grow the community
+* [ ] Release Penguin Plunge beta
+* [ ] Continue expanding the studio
+* [ ] Begin future projects
 
 ---
 
-##  Team
+## Community & Links
 
-PixelForge Studio is currently an independent development project.
+### Penguin Plunge
 
-As the studio grows, additional developers, artists, designers and other contributors may join the team.
+**YouTube:** [PenguinPlungeOfficial](https://www.youtube.com/@penguinplungeofficial)
 
----
+**Discord:** [Join the Penguin Plunge Discord](https://discord.gg/vaxBhvxuWr)
 
-##  Documentation
+### PixelForge Studios
 
-More documentation is available through the [PixelForge Studio Wiki](../../wiki).
-
-Development documentation will be expanded as the studio and its projects grow.
-
----
-
-##  Links
-
-**Studio:** PixelForge Studio
-**Main Project:** [Freebuild.lol](NOT OUT YET)
-**GitHub:** [PixelForge Studio](https://github.com/crypticfn2012-jpg/PixelForgeSudios)
+**GitHub:** [PixelForge Studios](https://github.com/crypticfn2012-jpg/PixelForgeSudios)
 
 ---
 
 <p align="center">
 
-**PixelForge Studio**
+**PixelForge Studios**
 
 *Forging games from scratch.*
 
