@@ -1,0 +1,258 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PixelForge Studios — Independent game studio</title>
+<meta name="description" content="PixelForge Studios is an independent game studio building fun, polished games from scratch. Penguin Plunge beta is coming soon, and a fishing game is in the works.">
+<meta name="theme-color" content="#0d0e10">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="https://github.com/crypticfn2012-jpg/PixelForgeSudios/raw/main/assets/tung.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#e9ebee;--ink:#0d0e10;--mut:#585d66;--ln:rgba(13,14,16,.18);--ember:#ff5a1f;--bone:#efeee9}
+html{scroll-behavior:smooth}
+body{font-family:Archivo,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--ember);outline-offset:3px}
+.wrap{width:min(1280px,calc(100% - 56px));margin:auto}
+h1,h2,h3{font-stretch:125%;font-weight:800;letter-spacing:-.03em;line-height:.92}
+ 
+
+.top{position:absolute;z-index:3;inset:0 0 auto 0;color:#fff}
+.bar{height:88px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px;font-stretch:125%;font-weight:800;font-size:18px;letter-spacing:-.02em}
+.brand img{height:36px;width:auto;display:block;object-fit:contain}
+.nav{display:flex;gap:34px;font-size:15px;font-weight:500}
+.nav a{opacity:.75;transition:opacity .2s}.nav a:hover{opacity:1}
+.hero{position:relative;height:100svh;min-height:640px;background:#0d0e10;color:#fff;overflow:hidden}
+#forge{position:absolute;inset:0;display:block}
+.hero-in{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:center;padding-bottom:14vh;pointer-events:none}
+.hero h1{font-size:clamp(46px,10.4vw,176px);margin-left:-.05em;text-shadow:0 4px 40px rgba(0,0,0,.55)}
+.hero p{max-width:40ch;margin-top:30px;font-size:clamp(17px,1.5vw,21px);line-height:1.5;color:#c9ccd3}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px;pointer-events:auto}
+.btn{display:inline-block;padding:15px 24px;border-radius:3px;font-weight:600;font-size:15px;border:1.5px solid #fff;transition:background .2s,color .2s}
+.btn.solid{background:#fff;color:var(--ink)}.btn.solid:hover{background:transparent;color:#fff}
+.btn.line:hover{background:#fff;color:var(--ink)}
+ 
+
+section{padding:130px 0}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;margin-bottom:56px}
+.head h2{font-size:clamp(44px,7vw,104px)}
+.head p{max-width:34ch;color:var(--mut)}
+details{border-top:1.5px solid var(--ink)}
+details:last-child{border-bottom:1.5px solid var(--ink)}
+summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:116px 1fr 190px 30px;gap:30px;align-items:center;padding:24px 0;transition:padding .25s}
+summary::-webkit-details-marker{display:none}
+summary:hover{padding-left:14px}
+.tile{width:116px;height:116px;background:#16171b;border-radius:4px;display:grid;place-items:center}
+.tile svg{width:76%;height:76%}
+.tile img{width:84%;height:84%;object-fit:contain}
+.tile.empty{background:transparent;border:1.5px dashed var(--ln)}
+summary h3{font-size:clamp(28px,4.2vw,56px);margin-bottom:8px}
+summary p{color:var(--mut);max-width:50ch;line-height:1.45}
+.st{display:flex;align-items:center;gap:10px;font-weight:600;font-size:15px}
+.st i{width:9px;height:9px;border-radius:50%;background:var(--ember)}
+.st.beta i{background:#e8a317}.st.plan i{background:#9aa0a9}
+.plus{width:22px;height:22px;position:relative;justify-self:end}
+.plus:before,.plus:after{content:"";position:absolute;left:0;top:10px;width:22px;height:2px;background:var(--ink);transition:transform .3s}
+.plus:after{transform:rotate(90deg)}
+details[open] .plus:after{transform:rotate(0)}
+.more{margin-left:146px;padding:0 0 44px;display:grid;grid-template-columns:1fr 1fr;gap:50px;max-width:900px}
+.more h4{font-weight:700;font-size:15px;margin-bottom:12px}
+.more ul{list-style:none;columns:2;column-gap:28px;color:var(--mut);font-size:15px}
+.more li{padding:5px 0;border-bottom:1px solid var(--ln);break-inside:avoid}
+.more p{color:var(--mut)}
+.more a{display:inline-block;margin:14px 18px 0 0;font-weight:600;border-bottom:1.5px solid var(--ink)}
+ 
+
+.studio{padding-top:40px}
+.studio .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:90px;align-items:start}
+.statement{font-stretch:112%;font-weight:600;font-size:clamp(30px,3.9vw,58px);line-height:1.08;letter-spacing:-.025em;position:sticky;top:40px}
+.goals{list-style:none;border-bottom:1px solid var(--ln)}
+.goals li{padding:20px 0;border-top:1px solid var(--ln);font-size:19px;font-weight:500}
+.goals-h{font-stretch:125%;font-weight:800;font-size:15px;margin-bottom:14px}
+.about{margin:26px 0 38px;color:var(--mut);max-width:44ch}
+ 
+
+.motto{background:var(--ink);color:var(--bone);padding:130px 0}
+.motto h2{font-size:clamp(44px,9.4vw,150px);line-height:.93}
+.motto h2 span{display:block}
+ 
+
+.team .row{display:flex;justify-content:space-between;align-items:baseline;gap:30px;padding:28px 0;border-top:1.5px solid var(--ink)}
+.team .row:last-child{border-bottom:1.5px solid var(--ink)}
+.team h3{font-size:clamp(34px,5.4vw,76px)}
+.team .row span{color:var(--mut);font-size:19px;text-align:right}
+ 
+
+.join{padding-top:20px}
+.join .links a{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:26px 0;border-top:1.5px solid var(--ink);font-stretch:125%;font-weight:800;font-size:clamp(32px,6vw,84px);letter-spacing:-.03em;line-height:1;transition:padding .25s,background .25s,color .25s}
+.join .links a:last-child{border-bottom:1.5px solid var(--ink)}
+.join .links a:hover{background:var(--ink);color:#fff;padding-left:22px;padding-right:22px}
+.join .links small{font-stretch:100%;font-weight:500;font-size:16px;letter-spacing:0;opacity:.65;text-align:right}
+footer{background:var(--ink);color:#8d929c;padding:30px 0;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer a:hover{color:#fff}
+ 
+@media(max-width:860px){
+  .nav a:not(:last-child){display:none}
+  section{padding:90px 0}
+  .head{display:block}.head p{margin-top:18px}
+  summary{grid-template-columns:76px 1fr 24px;gap:18px;padding:20px 0}
+  summary:hover{padding-left:0}
+  .tile{width:76px;height:76px}
+  .st{grid-column:2;grid-row:2}
+  .plus{grid-column:3;grid-row:1}
+  .more{margin-left:0;grid-template-columns:1fr;gap:30px}
+  .studio .grid{grid-template-columns:1fr;gap:50px}
+  .statement{position:static}
+  .team .row{display:block}.team .row span{text-align:left;display:block;margin-top:10px}
+  .join .links small{display:none}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}summary,.join .links a,.plus:after{transition:none}}
+</style>
+</head>
+<body>
+ 
+<div class="top"><div class="wrap bar">
+  <a class="brand" href="#" aria-label="PixelForge Studios home">
+    <img src="https://github.com/crypticfn2012-jpg/PixelForgeSudios/raw/main/assets/tung.png" alt="" width="36" height="36">
+    PixelForge
+  </a>
+  <nav class="nav" aria-label="Main"><a href="#games">Games</a><a href="#studio">Studio</a><a href="#team">Team</a><a href="#community">Community</a></nav>
+</div></div>
+ 
+<main>
+<header class="hero">
+  <canvas id="forge" aria-hidden="true"></canvas>
+  <div class="wrap hero-in">
+    <h1>PixelForge<br>Studios</h1>
+    <p>An independent game studio. We build our games from scratch, test them with our community and make each one better than the last.</p>
+    <div class="cta"><a class="btn solid" href="#games">See our games</a><a class="btn line" href="https://discord.gg/vaxBhvxuWr" target="_blank" rel="noopener">Join the community</a></div>
+  </div>
+</header>
+ 
+<section id="games">
+  <div class="wrap">
+    <div class="head"><h2>Our games</h2><p>What we're building now, and what comes next. Open a game to see more.</p></div>
+ 
+    <details open>
+      <summary>
+        <span class="tile"><img src="https://github.com/crypticfn2012-jpg/PixelForgeSudios/blob/main/assets/PPLOGO.webp?raw=true" alt="Penguin Plunge logo"></span>
+        <span><h3>Penguin Plunge</h3><p>A colourful, competitive browser party game. Control a penguin and race through obstacle courses.</p></span>
+        <span class="st beta"><i></i>Beta coming soon</span>
+        <span class="plus" aria-hidden="true"></span>
+      </summary>
+      <div class="more">
+        <div><h4>About the game</h4><p>Inspired by the chaotic style of games like Fall Guys. Jump into different challenges and compete to make it to the end.</p></div>
+        <div><h4>Follow Penguin Plunge</h4><p>Watch it in action and hear about the beta first.</p><a href="https://www.youtube.com/@PenguinPlungeOfficial" target="_blank" rel="noopener">Watch on YouTube</a><a href="https://discord.gg/m4tgK4KJFN" target="_blank" rel="noopener">Penguin Plunge Discord</a></div>
+      </div>
+    </details>
+ 
+    <details>
+      <summary>
+        <span class="tile"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="none" stroke="#ffb02e" stroke-width="5" stroke-linecap="round" d="M50 14v48a14 14 0 1 1-14-14"/><path fill="none" stroke="#5a5f68" stroke-width="3" stroke-linecap="round" d="M14 84q9-7 18 0t18 0 18 0 18 0"/></svg></span>
+        <span><h3>Our next game</h3><p>Fish by day. Defend your camp by night. Upgrade everything and go further out.</p></span>
+        <span class="st plan"><i></i>Early concept</span>
+        <span class="plus" aria-hidden="true"></span>
+      </summary>
+      <div class="more">
+        <div><h4>The idea</h4><p>During the day you fish, catch different types of fish and sell them to upgrade your rod, boat, gear and campsite. At night you head back to your tent and defend your stuff from wild animals. Better gear lets you fish further out and catch better fish, but the nights get harder.</p></div>
+        <div><h4>Ideas we're exploring</h4>
+          <ul style="columns:1"><li>Different areas with their own fish and animals</li><li>Rare fish</li><li>Weather and random events</li><li>An endless fishing mode for the highest score or rarest catch</li></ul>
+          <p style="margin-top:14px;font-size:14px">None of this is final. It's an early idea and it may change.</p>
+        </div>
+      </div>
+    </details>
+  </div>
+</section>
+ 
+<section class="studio" id="studio">
+  <div class="wrap grid">
+    <p class="statement">We build games from the ground up, try new ideas, and make each project better than the last.</p>
+    <div>
+      <h2 class="goals-h">Our goals</h2>
+      <ul class="goals">
+        <li>Make games that are genuinely fun to play</li>
+        <li>Build polished and unique experiences</li>
+        <li>Experiment with new ideas</li>
+        <li>Learn and improve our development skills</li>
+        <li>Build a community around our games</li>
+        <li>Eventually release multiple projects</li>
+      </ul>
+      <p class="about">PixelForge is starting small and learning as it goes. Every project is a chance to try new technology and gameplay systems.</p>
+      <a class="btn solid" style="background:var(--ink);color:#fff;border-color:var(--ink)" href="https://github.com/crypticfn2012-jpg/PixelForgeSudios/wiki" target="_blank" rel="noopener">Read the studio wiki</a>
+    </div>
+  </div>
+</section>
+ 
+<div class="motto">
+  <div class="wrap"><h2><span>Build it.</span><span>Test it.</span><span>Improve it.</span><span>Ship it.</span></h2></div>
+</div>
+ 
+<section class="team" id="team">
+  <div class="wrap">
+    <div class="head"><h2>The team</h2><p>A small team turning ideas into playable games.</p></div>
+    <div class="row"><h3>Ron</h3><span>Founder of PixelForge and co-owner of Penguin Plunge</span></div>
+    <div class="row"><h3>TTVRampage1</h3><span>Founder of Penguin Plunge and PixelForge developer</span></div>
+  </div>
+</section>
+ 
+<section class="join" id="community">
+  <div class="wrap">
+    <div class="head"><h2>Follow the build</h2><p>Development updates, playtests and announcements start with the community.</p></div>
+    <div class="links">
+      <a href="https://discord.gg/vaxBhvxuWr" target="_blank" rel="noopener">Discord<small>Chat, playtests, news</small></a>
+      <a href="https://www.youtube.com/@PenguinPlungeOfficial" target="_blank" rel="noopener">YouTube<small>Penguin Plunge videos</small></a>
+      <a href="https://github.com/crypticfn2012-jpg/PixelForgeSudios" target="_blank" rel="noopener">GitHub<small>Studio code and wiki</small></a>
+    </div>
+  </div>
+</section>
+</main>
+ 
+<footer><div class="wrap"><span>© 2026 PixelForge Studios</span><span><a href="https://github.com/crypticfn2012-jpg/PixelForgeSudios/wiki" target="_blank" rel="noopener">Wiki</a></span></div></footer>
+ 
+<script>
+(function(){
+  const cv=document.getElementById("forge"),cx=cv.getContext("2d"),hero=cv.parentElement;
+  const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const C=22,dpr=Math.min(window.devicePixelRatio||1,2);
+  const stops=[[0,[23,24,28]],[.18,[92,22,12]],[.45,[214,64,18]],[.75,[255,156,32]],[1,[255,238,196]]];
+  const lut=[];
+  for(let i=0;i<=40;i++){const t=i/40;let k=1;while(k<stops.length-1&&stops[k][0]<t)k++;
+    const a=stops[k-1],b=stops[k],u=(t-a[0])/(b[0]-a[0]);
+    lut.push("rgb("+a[1].map((v,j)=>Math.round(v+(b[1][j]-v)*u)).join(",")+")");}
+  let W,H,cols,rows,h,mx=-9,my=-9,on=true,last=0;
+  function size(){const r=hero.getBoundingClientRect();W=r.width;H=r.height;
+    cv.width=W*dpr;cv.height=H*dpr;cv.style.width=W+"px";cv.style.height=H+"px";
+    cx.setTransform(dpr,0,0,dpr,0,0);cols=Math.ceil(W/C);rows=Math.ceil(H/C);h=new Float32Array(cols*rows);
+    if(reduce){for(let i=0;i<40;i++)step();draw();}}
+  function step(){
+    for(let x=0;x<cols;x++){for(let y=rows-2;y<rows;y++){if(Math.random()<.14)h[y*cols+x]=Math.max(h[y*cols+x],.55+Math.random()*.45);}}
+    for(let y=0;y<rows-1;y++)for(let x=0;x<cols;x++){
+      const j=Math.random()<.3?(Math.random()<.5?-1:1):0,sx=Math.min(cols-1,Math.max(0,x+j));
+      const i=y*cols+x,below=h[(y+1)*cols+sx]*.87-.01;
+      h[i]=Math.max(h[i]*.8,below);}
+    if(mx>-1){const cxn=mx/C,cyn=my/C,R=4.5;
+      for(let y=Math.max(0,Math.floor(cyn-R));y<Math.min(rows,cyn+R);y++)for(let x=Math.max(0,Math.floor(cxn-R));x<Math.min(cols,cxn+R);x++){
+        const d=Math.hypot(x-cxn,y-cyn);if(d<R){const v=1-d/R+.15;if(v>h[y*cols+x])h[y*cols+x]=Math.min(1,v);}}}}
+  function draw(){
+    cx.fillStyle="#0d0e10";cx.fillRect(0,0,W,H);
+    for(let y=0;y<rows;y++)for(let x=0;x<cols;x++){
+      const v=h[y*cols+x];cx.fillStyle=lut[v<.02?0:Math.min(40,Math.round(v*40))];
+      cx.fillRect(x*C+1,y*C+1,C-2,C-2);}}
+  function loop(t){requestAnimationFrame(loop);if(!on||t-last<33)return;last=t;step();draw();}
+  hero.addEventListener("pointermove",e=>{const r=hero.getBoundingClientRect();mx=e.clientX-r.left;my=e.clientY-r.top;});
+  hero.addEventListener("pointerleave",()=>{mx=-9;});
+  new IntersectionObserver(e=>{on=e[0].isIntersecting;}).observe(hero);
+  addEventListener("resize",size);size();
+  if(!reduce)requestAnimationFrame(loop);
+})();
+</script>
+</body>
+</html>
+ 
