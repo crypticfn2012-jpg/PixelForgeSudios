@@ -2,18 +2,25 @@
 
 > **Forging games from scratch.**
 
-PixelForge Studios is an independent game studio focused on making fun, creative and polished games. We're currently working on a handful of small browser game projects, experimenting with ideas and improving each release as we go.
+PixelForge Studios is an independent game studio creating small, polished games. We focus on improving our existing projects while experimenting with new gameplay ideas.
 
 ## Current projects
 
 ### StackShift
 
-StackShift is a fast-paced stacking and packing browser game. Arrange parcels, load the van efficiently, and push for a new high score.
+StackShift is a playable browser game about stacking and packing parcels. Arrange packages, load the van efficiently, and aim for a higher score.
 
 - **Play:** https://crypticfn2012-jpg.github.io/StackShift/
 - **Source code:** https://github.com/crypticfn2012-jpg/StackShift
+- **Status:** Playable
 
-More small browser projects are in development. We'll share them here as they're ready.
+### FuryFire
+
+FuryFire is a retro-inspired first-person shooter influenced by classic games like DOOM. It focuses on fast-paced combat, weapon-based gameplay and an old-school shooter atmosphere.
+
+- **Status:** Not out currently — nearing completion
+
+FuryFire is not publicly playable yet. Development is focused on polishing gameplay, fixing bugs and preparing for release.
 
 ## How we build
 
@@ -26,7 +33,7 @@ We focus on:
 - Building polished experiences from scratch
 - Trying new gameplay ideas and browser technologies
 - Learning and improving with every project
-- Sharing our progress and listening to player feedback
+- Sharing progress and listening to player feedback
 
 ## Technology
 
@@ -40,6 +47,7 @@ PixelForge projects may use a range of tools, including:
 ## Team
 
 ### Ron
+
 Founder and developer at PixelForge Studios.
 
 ## Community and links
