@@ -11,7 +11,6 @@ PixelForge Studios is an independent game studio creating small, polished games.
 StackShift is a playable browser game about stacking and packing parcels. Arrange packages, load the van efficiently, and aim for a higher score.
 
 - **Play:** https://crypticfn2012-jpg.github.io/StackShift/
-- **Source code:** https://github.com/crypticfn2012-jpg/StackShift
 - **Status:** Playable
 
 ### FuryFire
